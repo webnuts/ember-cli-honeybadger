@@ -7,7 +7,7 @@ Plugin for ember-cli that enables honeybadger error tracking.
 To install simply run:
 
 ```
-npm install git+ssh://git@github.com:webnuts/ember-cli-honeybadger.git --save-dev
+ember install "webnuts/ember-cli-honeybadger.git"
 ```
 
 ## Usage
