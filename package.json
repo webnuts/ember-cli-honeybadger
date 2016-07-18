@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-honeybadger",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Plugin for ember-cli that enables honeybadger error tracking.",
   "directories": {
     "doc": "doc",
@@ -11,7 +11,7 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": "https://github.com/webnuts/ember-cli-honeybadger",
   "engines": {
     "node": ">= 0.10.0"
   },
