@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-honeybadger",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Plugin for ember-cli that enables honeybadger error tracking.",
   "directories": {
     "doc": "doc",
@@ -15,7 +15,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Webnuts",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.3",
@@ -33,7 +33,12 @@
     "ember-export-application-global": "^1.0.2"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "honeybadger",
+    "ember",
+    "log",
+    "error",
+    "tracking"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
