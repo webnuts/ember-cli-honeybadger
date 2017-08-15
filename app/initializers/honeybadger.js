@@ -7,13 +7,15 @@ export function initialize() {
     var environment = Ember.get(ENV, 'honeybadger.environment');
     var debug = Ember.get(ENV, 'honeybadger.debug') || false;
     var disabled = Ember.get(ENV, 'honeybadger.disabled') || false;
+    var revision = Ember.get(ENV, 'honeybadger.revision') || '';
 
     Honeybadger.configure({
       api_key: apiKey,
       environment: environment,
       debug: debug,
       onerror: true,
-      disabled: disabled
+      disabled: disabled,
+      revision: revision
     });
   }
 }
